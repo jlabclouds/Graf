@@ -7,7 +7,7 @@ npm install xlsx
 
 2. Read and parse the Excel file
 
-You can do this when a user uploads the file, or you can load it from the server. Here’s an example of parsing an uploaded Excel file and converting it to the same format as countryLocations:
+You can do this when a user uploads the file, but I would like to load it from the server. Here’s an example of parsing an uploaded Excel file and converting it to the same format as countryLocations:
 JavaScript
 
 import * as XLSX from 'xlsx';
@@ -37,3 +37,4 @@ Your Excel file should have columns matching your object keys, e.g.:
 name	lat	lng	event	severity	side	region
 United States	39.8283	-98.5795	Home base	Critical	us	Americas
 ...	...	...	...	...	...	...
+
