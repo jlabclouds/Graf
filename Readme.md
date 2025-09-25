@@ -1,3 +1,5 @@
+https://github.com/copilot/share/0a6c109a-0ba4-80a2-b812-cc4e80d30034
+
 1. Install an Excel parsing library
 
 The SheetJS library (xlsx) is the most popular for reading Excel files in JavaScript.
@@ -37,6 +39,7 @@ Your Excel file should have columns matching your object keys, e.g.:
 name	lat	lng	event	severity	side	region
 United States	39.8283	-98.5795	Home base	Critical	us	Americas
 ...	...	...	...	...	...	...
+
 
 
 
